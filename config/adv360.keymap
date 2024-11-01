@@ -76,11 +76,11 @@
 
         layer_Layer__4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans      &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans        &trans        &trans      &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp RG(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans        &trans        &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                            &trans  &trans        &trans        &trans      &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans      &trans  &trans  &trans  &kp LEFT      &kp DOWN      &kp UP      &kp RIGHT      &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                        &trans      &trans                  &kp LG(LEFT)  &kp LG(DOWN)  &kp LG(UP)  &kp RG(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &kp SPACE  &kp ENTER  &trans      &trans  &trans  &trans                &trans        &trans      &trans         &trans  &trans
             >;
         };
     };
