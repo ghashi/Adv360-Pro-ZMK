@@ -96,11 +96,11 @@
 
         symbols {
             bindings = <
-&trans  &trans            &trans             &trans                &trans                 &trans  &trans                                      &trans  &trans  &trans          &trans           &trans         &trans            &trans
-&trans  &trans            &trans             &trans                &trans                 &trans  &trans                                      &trans  &trans  &trans          &trans           &trans         &trans            &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL
-&trans  &trans            &trans             &trans                &trans                 &trans                  &trans      &trans                  &trans  &trans          &trans           &trans         &trans            &trans
-&trans  &trans            &trans             &trans                &trans                         &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans         &trans            &trans
+&trans  &trans            &trans             &trans                &trans                 &trans  &trans                                      &trans  &trans     &trans          &trans           &trans         &trans            &trans
+&trans  &trans            &trans             &kp RA(E)             &trans                 &trans  &trans                                      &trans  &trans     &kp RA(U)       &kp RA(I)        &trans         &trans            &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL
+&trans  &trans            &trans             &kp RA(C)             &trans                 &trans                  &trans      &trans                  &kp RA(N)  &trans          &trans           &trans         &trans            &trans
+&trans  &trans            &trans             &trans                &trans                         &trans  &trans  &trans      &trans  &trans  &trans             &trans          &trans           &trans         &trans            &trans
             >;
         };
 
