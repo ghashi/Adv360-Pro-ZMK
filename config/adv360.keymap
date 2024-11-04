@@ -87,7 +87,7 @@
         apps {
             bindings = <
 &trans  &trans         &trans         &trans         &trans         &trans         &trans                                      &trans  &trans         &trans         &trans             &trans           &trans            &trans
-&trans  &kp LC(LA(Q))  &kp LC(LA(W))  &kp LC(LA(E))  &kp LC(LA(R))  &kp LC(LA(A))  &trans                                      &trans  &kp LC(LA(Y))  &kp LC(LA(U))  &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &trans
+&trans  &kp LC(LA(Q))  &kp LC(LA(W))  &kp LC(LA(E))  &kp LC(LA(R))  &kp LC(LA(T))  &trans                                      &trans  &kp LC(LA(Y))  &kp LC(LA(U))  &kp LC(LA(I))      &kp LC(LA(O))    &kp LC(LA(P))     &trans
 &trans  &kp LC(LA(A))  &kp LC(LA(S))  &kp LC(LA(D))  &kp LC(LA(F))  &kp LC(LA(G))  &trans  &trans  &trans      &trans  &trans  &trans  &kp LC(LA(H))  &kp LC(LA(J))  &kp LC(LA(K))      &kp LC(LA(L))    &kp LC(LA(SEMI))  &trans
 &trans  &kp LC(LA(Z))  &kp LC(LA(X))  &kp LC(LA(C))  &kp LC(LA(V))  &kp LC(LA(B))                  &trans      &trans                  &kp LC(LA(N))  &kp LC(LA(M))  &kp LC(LA(COMMA))  &kp LC(LA(DOT))  &kp LC(LA(FSLH))  &trans
 &trans  &trans         &trans         &trans         &trans                        &trans  &trans  &trans      &trans  &trans  &trans                 &trans         &trans             &trans           &trans            &trans
