@@ -96,11 +96,11 @@
 
         symbols {
             bindings = <
-&trans  &trans            &trans             &trans          &trans           &trans  &trans                                      &trans  &trans     &trans                &trans                 &trans  &trans  &trans
-&trans  &trans            &trans             &kp RA(E)       &trans           &trans  &trans                                      &trans  &trans     &kp RA(U)             &kp RA(I)              &trans  &trans  &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none   &none   &kp EQUAL
-&trans  &trans            &trans             &kp RA(C)       &trans           &trans                  &trans      &trans                  &kp RA(N)  &kp PAGE_DOWN         &kp PAGE_UP            &trans  &trans  &trans
-&trans  &trans            &trans             &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &trans             &trans                &trans                 &trans  &trans  &trans
+&trans  &trans            &trans             &trans          &trans           &trans  &trans                                      &trans  &trans     &trans                &trans                 &trans          &trans            &trans
+&trans  &trans            &trans             &kp RA(E)       &trans           &trans  &trans                                      &trans  &trans     &kp RA(U)             &kp RA(I)              &kp UNDERSCORE  &kp MINUS         &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL       &kp PLUS          &kp EQUAL
+&trans  &trans            &trans             &kp RA(C)       &trans           &trans                  &trans      &trans                  &kp RA(N)  &kp PAGE_DOWN         &kp PAGE_UP            &kp LT          &kp GREATER_THAN  &trans
+&trans  &trans            &trans             &trans          &trans                   &trans  &trans  &trans      &trans  &trans  &trans             &trans                &trans                 &trans          &trans            &trans
             >;
         };
 
