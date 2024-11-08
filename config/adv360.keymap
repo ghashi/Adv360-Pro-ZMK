@@ -35,14 +35,14 @@
         go_to_url_in_browser: go_to_url_in_browser {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(L) &kp LG(V) &kp ENTER>;
+            bindings = <&kp RA(RC(K)) &kp LG(L) &kp BACKSPACE &kp LG(V) &kp ENTER>;
             label = "GO_TO_URL_IN_BROWSER";
         };
 
         find_file: find_file {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(P) &kp LG(V)>;
+            bindings = <&kp RA(RC(J)) &kp LG(P) &kp LG(V)>;
             label = "FIND_FILE";
         };
     };
