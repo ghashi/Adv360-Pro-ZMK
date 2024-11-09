@@ -58,6 +58,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        JF {
+            bindings = <&kp TAB>;
+            key-positions = <32 41>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
