@@ -35,14 +35,14 @@
         go_to_url_in_browser: go_to_url_in_browser {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(RC(K)) &kp LG(L) &kp BACKSPACE &kp LG(V)>;
+            bindings = <&kp LG(C) &kp RA(RC(K)) &kp LG(L) &kp BACKSPACE &kp LG(V) &kp>;
             label = "GO_TO_URL_IN_BROWSER";
         };
 
-        find_file: find_file {
+        find_file_in_editor: find_file {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RA(RC(J)) &kp LG(P) &kp LG(V)>;
+            bindings = <&kp LG(C) &kp RA(RC(J)) &kp LG(P) &kp LG(V)>;
             label = "FIND_FILE";
         };
 
@@ -61,9 +61,9 @@
             bindings = <
 &kp GRAVE      &kp N1     &kp N2     &kp N3    &kp N4     &kp N5  &tog 1                                                                 &mo 3          &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
 &none          &kp Q      &kp W      &kp E     &kp R      &kp T   &kp LEFT_GUI                                                           &kp RIGHT_GUI  &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&none          &kp A      &kp S      &kp D     &kp F      &kp G   &kp LEFT_ALT    &kp LEFT_ALT  &kp ENTER        &kp RALT     &kp RCTRL  &kp LEFT_ALT   &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp BACKSPACE  &kp Z      &kp X      &kp C     &kp V      &kp B                                 &lt 6 TAB        &lt 6 GRAVE                            &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp DELETE
-&mo 2          &kp LCTRL  &lt 7 TAB  &kp LEFT  &kp RIGHT          &kp LEFT_SHIFT  &kp LEFT_GUI  &lt 4 SPACE      &kp RET      &lt 4 ESC  &lt 5 SPACE            &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
+&kp ESC        &kp A      &kp S      &kp D     &kp F      &kp G   &kp LEFT_ALT    &kp LEFT_ALT  &kp ENTER        &kp RALT     &kp RCTRL  &kp LEFT_ALT   &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
+&kp BACKSPACE  &kp Z      &kp X      &kp C     &kp V      &kp B                                 &lt 7 TAB        &lt 7 GRAVE                            &kp N   &kp M     &kp COMMA  &kp DOT   &kp FSLH  &kp DELETE
+&mo 2          &kp LCTRL  &lt 7 TAB  &kp LEFT  &kp RIGHT          &kp LEFT_SHIFT  &kp LEFT_GUI  &lt 4 SPACE      &kp RET      &lt 6 ESC  &lt 5 SPACE            &kp DOWN  &kp UP     &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
@@ -131,7 +131,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &search_from_clipboard  &find_file             &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &search_from_clipboard  &find_file_in_editor   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &go_to_url_in_browser                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
