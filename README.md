@@ -149,51 +149,7 @@ Whilst the Advantage 360 Pro is compatible with base ZMK (The pull request to me
 
 Further support resources can be found on Kinesis.com:
 
-## tip for combos
 
-Home Row Pairs (Very Safe)
-
-JK (classic example - never appears in words)
-JL (very rare combination)
-FJ (index fingers, never together)
-KM (different hands, rare)
-GL (different hands, uncommon)
-
-Top Row Pairs
-
-QP (different hands, never together)
-WO (different hands, rare)
-QZ (very rare combination)
-YP (different hands, uncommon)
-
-Bottom Row Pairs
-
-ZM (different hands, never together)
-XM (different hands, rare)
-ZN (different hands, uncommon)
-
-Mixed Row Pairs
-
-FP (different hands, rare)
-JO (different hands, uncommon)
-KU (different hands, rare)
-QM (different hands, never together)
-
-Especially Good Combinations (based on finger comfort + language rarity):
-
-JK (the gold standard)
-FJ (home row index fingers)
-QP (strong fingers, different hands)
-ZM (different hands, never together)
-KM (home + bottom, different hands)
-
-Bad Examples (to avoid):
-
-TH (very common in English)
-CH (common in both languages)
-ES (very common in Portuguese)
-AN (common in both)
-DE (common in both)
 
 * https://kinesis-ergo.com/support/kb360pro/#firmware-updates
 * https://kinesis-ergo.com/support/kb360pro/#manuals
@@ -201,3 +157,48 @@ DE (common in both)
 In the event of a hardware issue it may be necessary to open a support ticket directly with Kinesis as opposed to a GitHub issue in this repository.
 * https://kinesis-ergo.com/support/kb360pro/#ticket
 
+## tip for combos
+
+Home Row Pairs (Very Safe)
+
+- JK (classic example - never appears in words)
+- JL (very rare combination)
+- FJ (index fingers, never together)
+- KM (different hands, rare)
+- GL (different hands, uncommon)
+
+Top Row Pairs
+
+- QP (different hands, never together)
+- WO (different hands, rare)
+- QZ (very rare combination)
+- YP (different hands, uncommon)
+
+Bottom Row Pairs
+
+- ZM (different hands, never together)
+- XM (different hands, rare)
+- ZN (different hands, uncommon)
+
+Mixed Row Pairs
+
+- FP (different hands, rare)
+- JO (different hands, uncommon)
+- KU (different hands, rare)
+- QM (different hands, never together)
+
+Especially Good Combinations (based on finger comfort + language rarity):
+
+- JK (the gold standard)
+- FJ (home row index fingers)
+- QP (strong fingers, different hands)
+- ZM (different hands, never together)
+- KM (home + bottom, different hands)
+
+Bad Examples (to avoid):
+
+- TH (very common in English)
+- CH (common in both languages)
+- ES (very common in Portuguese)
+- AN (common in both)
+- DE (common in both)
