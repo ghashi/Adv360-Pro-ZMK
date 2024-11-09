@@ -36,10 +36,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp LG(C) &kp RA(RC(K)) &kp LG(L) &kp BACKSPACE>,
-                <&macro_wait_time 100>,
-                <&kp LG(V)>,
-                <&macro_wait_time 100>,
+                <&kp LG(C) &kp RA(RC(K)) &kp LG(L) &kp BACKSPACE &kp LG(V)>,
+                <&macro_wait_time 500>,
                 <&kp ENTER>;
 
             label = "GO_TO_URL_IN_BROWSER";
