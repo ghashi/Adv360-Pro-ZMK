@@ -65,6 +65,11 @@
             bindings = <&kp TAB>;
             key-positions = <32 41>;
         };
+
+        df {
+            bindings = <&kp ESCAPE>;
+            key-positions = <32 31>;
+        };
     };
 
     keymap {
