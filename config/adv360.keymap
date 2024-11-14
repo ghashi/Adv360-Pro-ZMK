@@ -56,6 +56,20 @@
             bindings = <&kp LG(F) &kp LG(V)>;
             label = "SEARCH_FROM_CLIPBOARD";
         };
+
+        search_on_editor: search_on_editor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C) &kp RA(RC(J)) &kp LG(RS(F)) &kp LG(V)>;
+            label = "SEARCH_ON_EDITOR";
+        };
+
+        execute_tests_on_vscode: execute_tests_on_vscode {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(J)) &kp LG(LS(D)) &kp ENTER>;
+            label = "EXECUTE_TESTS_ON_VSCODE";
+        };
     };
 
     combos {
@@ -147,11 +161,11 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &search_from_clipboard  &find_file_in_editor   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &go_to_url_in_browser                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &search_on_editor       &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &execute_tests_on_vscode  &search_from_clipboard  &find_file_in_editor   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans                  &go_to_url_in_browser                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans                                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
