@@ -67,7 +67,7 @@
         execute_tests_on_vscode: execute_tests_on_vscode {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LA(LC(J)) &kp LG(LS(D)) &kp ENTER>;
+            bindings = <&kp LA(LC(J)) &kp RS(F5) &kp LG(LS(D)) &kp ENTER>;
             label = "EXECUTE_TESTS_ON_VSCODE";
         };
     };
