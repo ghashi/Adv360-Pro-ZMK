@@ -66,6 +66,13 @@
             bindings = <&kp LA(LC(J)) &kp RS(F5) &kp LG(LS(D)) &kp ENTER &kp LG(E)>;
             label = "EXECUTE_TESTS_ON_VSCODE";
         };
+
+        typecheck_on_editor: typecheck_on_editor {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LC(J)) &kp LC(GRAVE) &kp LC(C) &kp B &kp U &kp N &kp SPACE &kp T &kp Y &kp P &kp E &kp MINUS &kp C &kp H &kp E &kp C &kp K &kp ENTER>;
+            label = "TYPECHECK_ON_EDITOR";
+        };
     };
 
     combos {
@@ -158,7 +165,7 @@
         macros {
             bindings = <
 &trans  &trans  &trans  &trans                    &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                    &search_on_editor       &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &search_on_editor       &typecheck_on_editor   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &execute_tests_on_vscode  &search_from_clipboard  &find_file_in_editor   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                    &trans                  &go_to_url_in_browser                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans                    &trans                                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
