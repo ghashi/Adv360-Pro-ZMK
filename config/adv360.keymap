@@ -77,7 +77,7 @@
         console_log: console_log {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(C) &kp O &kp C &kp O &kp N &kp S &kp O &kp L &kp E &kp DOT &kp L &kp O &kp G &kp LPAR &kp SQT &kp LS(T) &kp LS(O) &kp LS(D) &kp LS(O) &kp COLON &kp SPACE &kp LS(H) &kp LS(A) &kp LS(S) &kp LS(H) &kp LS(I) &kp SPACE &kp TILDE &kp SQT &kp COMMA &kp SPACE &kp LG(V)>;
+            bindings = <&kp LG(C) &kp O &kp C &kp O &kp N &kp S &kp O &kp L &kp E &kp DOT &kp L &kp O &kp G &kp LPAR &kp SQT &kp LS(T) &kp LS(O) &kp LS(D) &kp LS(O) &kp COLON &kp SPACE &kp LS(H) &kp LS(A) &kp LS(S) &kp LS(H) &kp LS(I) &kp SPACE &kp TILDE &kp SPACE &kp LG(V) &kp SQT &kp COMMA &kp LG(V) &kp RIGHT_PARENTHESIS &kp ESCAPE>;
             label = "CONSOLE_LOG";
         };
     };
@@ -176,11 +176,11 @@
 
         macros {
             bindings = <
-&trans  &trans  &trans  &trans                    &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp RC(RG(SPACE))         &search_on_editor       &typecheck_on_editor   &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &execute_tests_on_vscode  &search_from_clipboard  &find_file_in_editor   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                    &trans                  &go_to_url_in_browser                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans                    &trans                                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans                  &trans                 &trans                                      &trans  &trans  &trans  &trans  &trans        &trans  &trans
+&trans  &trans  &trans  &kp RC(RG(SPACE))         &search_on_editor       &typecheck_on_editor   &trans                                      &trans  &trans  &trans  &trans  &trans        &trans  &trans
+&trans  &trans  &trans  &execute_tests_on_vscode  &search_from_clipboard  &find_file_in_editor   &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &console_log  &trans  &trans
+&trans  &trans  &trans  &trans                    &trans                  &go_to_url_in_browser                  &trans      &trans                  &trans  &trans  &trans  &trans        &trans  &trans
+&trans  &trans  &trans  &trans                    &trans                                         &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans        &trans  &trans
             >;
         };
     };
