@@ -96,7 +96,7 @@
         };
 
         cmd_space_left {
-            bindings = <&mo 5>;
+            bindings = <&mo 4>;
             key-positions = <66 67>;
         };
     };
