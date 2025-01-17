@@ -93,7 +93,7 @@
         compatible = "zmk,combos";
 
         JF {
-            bindings = <&kp TAB>;
+            bindings = <&kp LA(LG(J))>;
             key-positions = <32 41>;
         };
 
@@ -105,6 +105,11 @@
         cmd_space_left {
             bindings = <&mo 4>;
             key-positions = <66 67>;
+        };
+
+        FH {
+            bindings = <&kp LA(LG(H))>;
+            key-positions = <32 40>;
         };
     };
 
