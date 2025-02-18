@@ -111,6 +111,11 @@
             bindings = <&kp LA(LG(H))>;
             key-positions = <32 40>;
         };
+
+        opt-ctrl-space {
+            bindings = <&kp LC(LA(SPACE))>;
+            key-positions = <67 70>;
+        };
     };
 
     keymap {
