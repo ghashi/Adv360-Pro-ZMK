@@ -116,6 +116,11 @@
             bindings = <&kp LC(LA(SPACE))>;
             key-positions = <67 70>;
         };
+
+        jk_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <41 42>;
+        };
     };
 
     keymap {
